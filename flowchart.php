@@ -1,4 +1,5 @@
 <?php include "includes/header.php";?>
+<section>
 
 <!-- Responsive table coming soon! -->
  <p>We'll attemp iframing in a google doc that shows our final project wireframe and flowchart here</p>

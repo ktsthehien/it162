@@ -1,5 +1,8 @@
 <?php include "includes/header.php";?>
 
+
+<section>
+
 <!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
  <img src="images/desktop.jpg" class="desktop" alt="My Photo" />
  <img src="images/tablet.jpg" class="tablet" alt="My Photo" />
