@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Web Dev Examples by Hien Nguyen</title>
+<title><?=$title?></title>
     <meta name="viewport" content="width=device-width" />
     <meta name="robots" content="noindex,nofollow" />
     <meta charset="utf-8">
