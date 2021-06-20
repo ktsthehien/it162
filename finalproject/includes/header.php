@@ -12,6 +12,8 @@
      <link rel="stylesheet" href="css/slideshow.css" />
    <!-- jQuery --> 
    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+     <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+      <script type="text/javascript" src="js/jquery.fadeImg.js"></script>
     <!-- menuMaker Plugin --> 
    <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
      <!--slideshow -->

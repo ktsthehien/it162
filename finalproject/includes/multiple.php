@@ -48,10 +48,10 @@
 <div>	
     <fieldset>
         <legend>What Services Are You Interested In?</legend>
-        <input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> New Website <br />
-        <input type="checkbox" name="Interested_In[]" value="Website Redesign" /> Website Redesign <br />
-        <input type="checkbox" name="Interested_In[]" value="Special Application" /> Special Application <br />
-        <input type="checkbox" name="Interested_In[]" value="Lollipops" /> Complimentary Lollipops <br />
+        <input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> Printing <br />
+        <input type="checkbox" name="Interested_In[]" value="Website Redesign" /> Banners <br />
+        <input type="checkbox" name="Interested_In[]" value="Special Application" /> Business cards <br />
+        <input type="checkbox" name="Interested_In[]" value="Lollipops" /> Posters <br />
         <input type="checkbox" name="Interested_In[]" value="Other" /> Other <br />
     </fieldset>
 </div>

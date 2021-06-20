@@ -26,6 +26,7 @@
 }
 #cssmenu #menu-button {
   display: none;
+    text-align: center;
 }
 #cssmenu {
   font-family: Montserrat, sans-serif;
@@ -63,7 +64,7 @@
   text-transform: uppercase;
 }
 #cssmenu > ul > li:hover > a {
-  color: blue;
+  color: #8fc63f;
 }
 #cssmenu > ul > li.has-sub > a {
   padding-right: 30px;
@@ -146,7 +147,7 @@
 }
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li a:hover {
-  color: blue;
+  color: #8fc63f;
 }
 #cssmenu ul ul li.has-sub > a:after {
   position: absolute;
@@ -223,7 +224,7 @@
 }
 #cssmenu.small-screen ul ul li:hover > a,
 #cssmenu.small-screen ul ul li.active > a {
-  color: blue;
+  color: #8fc63f;
 }
 #cssmenu.small-screen ul ul,
 #cssmenu.small-screen ul ul ul,
@@ -277,7 +278,7 @@
   border: 0;
   height: 2px;
   width: 15px;
-  background: blue;
+  background: #8fc63f;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -286,7 +287,7 @@
 }
 #cssmenu.small-screen #menu-button.menu-opened:before {
   top: 23px;
-  background: blue;
+  background: #8fc63f;
   width: 15px;
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -327,7 +328,7 @@
   right: 13px;
 }
 #cssmenu.small-screen .submenu-button.submenu-opened:after {
-  background: blue;
+  background: #8fc63f;
 }
 #cssmenu.small-screen .submenu-button:before {
   position: absolute;

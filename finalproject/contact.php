@@ -1,8 +1,9 @@
 <?php include "includes/header.php";?>
     
-  
-<div class="our_team">
+<div class="wrapper">  
+<div class="contact_us">
     <h1> Contact Us</h1>
+    <p>If you'd like to get in touch, please use this form</p>
     </div>
     
 <?php
@@ -23,5 +24,7 @@
         echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?>
+    
+</div>
 
 <?php include "includes/footer.php";?>

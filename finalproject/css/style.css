@@ -45,13 +45,25 @@ main {
     font-size:30px;
 }
 
+.wrapper{
+    width:100%;
+    margin: auto;
+}
+
 h1,h2,h3 {font-family:'Proto Grotesk Web'!important;
 text-align: center;}
 
 h1, h2,h3, p {
     text-decoration: none;
+    color:#4d4d4d;
     margin: auto;
     padding: 10px 10px;
+}
+
+
+
+h1, h2, h3{
+    color:#8fc63f;
 }
 
 a{
@@ -63,9 +75,21 @@ p{
     font-size:0.7em;
 }
 
+.contact_us p {text-align: center;}
+
+.quote{font-style: italic;}
+
+.author{
+    font-style:italic;
+    font-weight: bold;
+    font-size: 12px;
+}
+
 .logo {
     margin-right: 0.5em;
 }
+
+.services a{ color:#8fc63f; }
 
 img{
     width:100%;
@@ -105,17 +129,48 @@ nav {
     
 }
 
-header{display: block;height: 150px;}
+header{display: block;height: 100px;}
 
 
 
 
 /* SLIDESHOW */
-.banner{margin-bottom: 100px;}
+.banner{margin-bottom: 50px;}
+
+.slide1{
+    background-image: url(../images/slide1.png);
+}
+.slide2{
+    background-image: url(../images/slide2.png);
+}
+.slide3{
+    background-image: url(../images/slide3.png);
+}
+.slide4{
+    background-image: url(../images/slide4.png);
+}
+
+.slide1, .slide2, .slide3, .slide4 {
+     background-repeat: no-repeat;
+    background-size:cover;
+}
+
 /* MISSION */
 
-footer{text-align: center}
+footer{text-align: center;
+background:black;
+padding: 30px 0;
+}
 
+footer p {color:white;}
+footer a {color:greenyellow;}
+
+
+.flex-item-left {
+  flex: 30%;
+    padding: 10px;
+    margin: 10px;
+}
 
 
 /* PRIVACY */
@@ -146,12 +201,84 @@ footer{text-align: center}
 
 /* ABOUT US PAGE for big screen */  
 
+.introduction{
+    width:100%;
+    padding: 10px;
+}
+
+.services{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 30px;
+    position: relative;
+    background: #fff;
+    -webkit-box-shadow: 0px 22px 68px -9px rgb(0 0 0 / 15%);
+    -moz-box-shadow: 0px 22px 68px -9px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 22px 68px -9px rgb(0 0 0 / 15%);
+    bottom: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.services h2 {color:#8fc63f;}
+
+.project1{
+    height:250px;
+    background-image:url(../images/project1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+        }
+.project2{
+    height:250px;
+    background-image:url(../images/project2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+        }
+        
+.project3{
+    height:500px;
+    background-image:url(../images/project3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+        }
+.project4{
+    height:250px;
+    background-image:url(../images/project4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+        }
+.project5{
+    height:250px;
+    background-image:url(../images/project5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+        }
+
+.comments{display: flex;}
+.person{
+    flex:15%;
+    padding: 5px;
+}
+.comment{
+    flex:80%;
+    padding:5px;
+}
+.person img{
+    width: 80px;
+    border-radius: 50%;}
+
 .aboutus{
     flex: 100%;
     padding: 10px;
 }
 
-}
 
 .contact{
    flex: 100%;
@@ -161,9 +288,21 @@ footer{text-align: center}
 /* For Screen bigger than 500px */
 	@media (min-width: 500px) {
         
+.wrapper{
+    width:90%;
+    margin: 30px auto;
+}
+        
 .flex-container {
   flex-direction: row;
   text-align: center;
+}
+        
+.introduction{
+    width:70%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
 }
 
 .full_width{ 
@@ -176,8 +315,45 @@ footer{text-align: center}
         }
         
 .projects{
-     padding: 20px;
+     padding: 0px;
     flex: 45%;
+        }
+        
+.project1{
+    height:250px;
+    background-image:url(../images/project1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+        }
+.project2{
+    height:250px;
+    background-image:url(../images/project2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+        }
+        
+.project3{
+    height:500px;
+    background-image:url(../images/project3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+        }
+.project4{
+    height:250px;
+    background-image:url(../images/project4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
+        }
+.project5{
+    height:250px;
+    background-image:url(../images/project5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px;
         }
         
 .comments{
@@ -187,18 +363,16 @@ footer{text-align: center}
         
 .about{
      padding: 20px;
-    flex: 30%;
+    flex: 25%;
         }
-.
         
-        .our_team{ padding: 20px;
-              margin-top:500px; 
-    flex: 100%;
-            
-        }
+.our_team{ padding: 20px; 
+        flex: 100%;
+            }
+        
+.our_team_photos
 
 .flex-item-right {
-  background-color: dodgerblue;
   padding: 10px;
   flex: 50%;
 }
@@ -214,17 +388,25 @@ footer{text-align: center}
 	
 	@media (min-width: 800px) {
 
-/* Flexbox layout */       
+/* Flexbox layout */   
+        
+.wrapper{
+    width:80%;
+    margin: 30px auto;
+}
         
 .services{
      padding: 20px;
-    flex: 30%;
+    flex: 25%;
         }
         
-.projects{
-     padding: 20px;
-    flex: 30%;
+
+.projects{padding: 0px;
+    flex: 25%;
         }
+        
+
+        
         
 .comments{
      padding: 20px;
@@ -233,7 +415,7 @@ footer{text-align: center}
         
 .about{
      padding: 20px;
-    flex: 30%;
+    flex: 25%;
         }
         
    /* OUR SERVICES PAGE for big screen */  

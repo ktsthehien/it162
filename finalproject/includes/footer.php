@@ -1,17 +1,13 @@
  <div>
     <footer>
-  <p><small>&copy; 2021 - <?=date("Y")?> by <a href="contactme.php" target="_blank">Hien Nguyen</a>, All Rights Reserved ~ <a href="https://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+  <p><small>&copy; 2021 - <?=date("Y")?> by <a href="contact.php" target="_blank">Hien Nguyen</a>, All Rights Reserved ~ <a href="https://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a> ~ <a href="privacy.php" target="_blank">Privacy</a></small></p>
 </footer>
     </div>
-</div>
        
      
   </main>
-     
- </body>
-     <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-  <script type="text/javascript" src="js/jquery.fadeImg.js"></script>
-  <script>
+
+<script>
   $(document).ready(function($) {
     $(".slide").fadeImages({
       arrows: true,
@@ -36,5 +32,9 @@
   })();
 
 </script>
+     
+ </body>
+ 
+  
     
 </html>
